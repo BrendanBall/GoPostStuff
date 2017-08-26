@@ -1,15 +1,16 @@
 package main
 
 import (
-	"code.google.com/p/gcfg"
 	"flag"
 	"fmt"
-	"github.com/op/go-logging"
 	"os"
 	"os/user"
 	"path/filepath"
 	"runtime"
 	"runtime/pprof"
+
+	"github.com/op/go-logging"
+	"gopkg.in/gcfg.v1"
 )
 
 const (
